@@ -1,0 +1,42 @@
+# Node modules
+node_modules/
+front/node_modules/
+
+# Build outputs
+front/dist/
+front/build/
+
+# Docker files
+docker-compose.yml
+Dockerfile
+front/Dockerfile
+
+# Development files
+.env.local
+.env.development
+*.log
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Nginx config
+nginx/
+
+# Documentation
+README.md
+MIGRATION_GUIDE.md
+
+# Package lock files (keep package.json)
+package-lock.json
+front/package-lock.json
