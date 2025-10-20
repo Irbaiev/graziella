@@ -28,11 +28,6 @@
       "dest": "/index.html"
     }
   ],
-  "functions": {
-    "front/src/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  },
   "env": {
     "NODE_ENV": "production"
   },
